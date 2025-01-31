@@ -13,16 +13,31 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mariogym.tuappname",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mariogym.tuappname",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fbf02fcf-0e0b-4e0e-a751-e0e056b97cfc"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fbf02fcf-0e0b-4e0e-a751-e0e056b97cfc"
+    },
+    "owner": "mrpuntitos"
   }
 }
